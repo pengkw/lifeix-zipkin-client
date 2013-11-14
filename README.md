@@ -12,7 +12,7 @@ java使用zipkin，这个client主要基于https://github.com/kristofa/brave 作
 
 调用：
 
-    	//Init zipkin
+ 	//Init zipkin
 	ZipKinConfig zkConfig = new ZipKinConfig();
 	zkConfig.setTraceServerIp("127.0.0.1");
 	zkConfig.setTraceServerPort(8080);
